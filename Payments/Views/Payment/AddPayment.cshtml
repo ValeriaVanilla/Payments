@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/all.min.css">
+    <link rel="stylesheet" href="~/Content/PaymentUpdateStyle.css">
+</head>
+<body>
+    <div class="container" style="margin-right: 6cm;">
+
+        <h2><b>Add Payment</b></h2>
+
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["Success"]
+                <button type="button" class="close" data-dismiss="alert">
+                    <span>&times;</span>
+                </button>
+            </div>
+        }
+        
+        <form action="@Url.Action("AddPayment", "Payment")" method="post">
+            <div>
+                <label>Amount</label>
+                <input type="number" step="any" name="amount" placeholder="2000">
+            </div>
+            <div>
+                <label>Description</label>
+                <input type="text" name="description" placeholder="Salary">
+            </div>
+            <div>
+                <label>Beneficiary</label>
+                <input type="text" name="beneficiary" placeholder="John Doe">
+            </div>
+            <div>
+                <button class="btn btn-success glyphicon glyphicon-ok" type="submit" title="Add Payment"></button>
+                <button class="btn btn-danger glyphicon glyphicon-remove" type="reset" title="Clear Fields"></button>
+            </div>            
+        </form>
+    </div>
+
+</body>
+</html>

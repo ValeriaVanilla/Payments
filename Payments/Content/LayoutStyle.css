@@ -1,0 +1,25 @@
+﻿* {
+    font-family: Calibri;
+}
+
+i {
+    margin-right: 1%;
+}
+
+a {
+    text-decoration:none;
+}
+
+li:hover, li.current {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline 2px;
+    text-decoration-style:wavy;
+}
+
+footer {
+    position: absolute;
+    left: 10%;
+    top: 95%;
+}
+

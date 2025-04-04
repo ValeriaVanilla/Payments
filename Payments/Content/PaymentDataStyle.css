@@ -1,0 +1,52 @@
+﻿* {
+    font-family: Calibri;
+}
+
+html, body {
+    background-color: #DBDEEC;
+}
+
+table {
+border-radius: 25px;
+}
+
+thead {
+    background-color: #6571B7;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+font-weight: bold;
+margin-bottom: 15px;
+
+}
+
+
+
+#updateBtn, #deleteBtn {
+    text-decoration: none;
+    margin-right: 5px;
+    background: none;
+    border: none;
+}
+
+#deleteButton, #clearButton {
+    margin-top: 20px;
+    margin-right: 15px;
+    background: #6571B7;
+    color: white;
+    border-radius: 15px;
+    border: solid 0px;
+    width: 15%;
+    font-size: 1vw;
+    padding: 0.2vw;
+}
+
+    #deleteButton:hover, #clearButton:hover{
+        background: #3C426A;
+    }
+
+#updateBtn:hover, #deleteBtn:hover {
+    color: #808080;
+}

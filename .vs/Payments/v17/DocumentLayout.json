@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|c:\\users\\valer\\onedrive\\desktop\\examen spark\\payments\\payments\\views\\access\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|solutionrelative:payments\\views\\access\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\payments\\views\\payment\\viewpayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|solutionrelative:payments\\views\\payment\\viewpayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\payments\\views\\payment\\modifypayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|solutionrelative:payments\\views\\payment\\modifypayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\payments\\views\\payment\\addpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88312B91-21C9-415C-AA08-A0CB84752BB5}|Payments\\Payments.csproj|solutionrelative:payments\\views\\payment\\addpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewPayments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Payment\\ViewPayments.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Payment\\ViewPayments.cshtml",
+              "ToolTip": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Payment\\ViewPayments.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Payment\\ViewPayments.cshtml",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAqwJMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:55:02.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModifyPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Payment\\ModifyPayment.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Payment\\ModifyPayment.cshtml",
+              "ToolTip": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Payment\\ModifyPayment.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Payment\\ModifyPayment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:54:35.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Payment\\AddPayment.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Payment\\AddPayment.cshtml",
+              "ToolTip": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Payment\\AddPayment.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Payment\\AddPayment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:53:43.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Access\\Login.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Access\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Valer\\OneDrive\\Desktop\\Examen Spark\\Payments\\Payments\\Views\\Access\\Login.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Access\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:53:03.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

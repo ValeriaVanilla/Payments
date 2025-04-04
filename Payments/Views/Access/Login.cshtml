@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/LoginStyle.css">
+    <link rel="shortcut icon" href="~/Resources/piggy-bank-solid.ico" />
+    <title>@ViewBag.Title Pay Track</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/all.min.css">
+</head>
+<body>
+    <div class="Flex-Container">
+        <div class="Side-Container>">
+            <img src="~/Resources/LoginSideImage.jpg" class="loginPic" />
+        </div>
+        <div class="Authentication">
+            <h1>Sing in</h1>
+            <form action="@Url.Action("Login", "Access")" method="post">
+                <div class="icons">
+                    <i class="fab fa-google-plus fa-2x"></i>
+                    <i class="fab fa-facebook fa-2x"></i>
+                </div>
+                <p>or use your email account<p>
+
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-warning">
+                            @TempData["Error"]
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                    }
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="user@gmail.com">
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password" name="password" placeholder="************">
+                    </div>
+                    <a href="">Forgot your password?</a>
+                    <button type="submit" class="login-button">
+                        <i class="fas fa-arrow-alt-circle-right"></i> Sign In
+                    </button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
